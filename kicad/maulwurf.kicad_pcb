@@ -4092,7 +4092,7 @@
   (gr_line (start 170 60) (end 108 60) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 111 79) (end 111 62) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 168 80.307003) (end 168 62) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 114.903 80.417) (end 111.003 80.417) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 114.9 80.4) (end 111.003 80.417) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 114.6 79) (end 111 79) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 164.19 82) (end 168 82) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 164.993 80.307) (end 167.993 80.307) (layer Edge.Cuts) (width 0.15))
@@ -4127,7 +4127,7 @@
   (gr_line (start 119.124 77.993) (end 118.59 64.406) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 114.062 65.872) (end 119.124 77.993) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 114.6 79) (end 114.062 65.872) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 122.06 100.157) (end 114.923 80.41) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 122.06 100.157) (end 114.9 80.4) (layer Edge.Cuts) (width 0.15))
 
   (segment (start 139.193 98.182) (end 139.193 100.299) (width 0.25) (layer F.Cu) (net 0))
 

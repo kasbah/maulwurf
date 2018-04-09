@@ -8,7 +8,7 @@
     (drawings 57)
     (tracks 1)
     (zones 0)
-    (modules 15)
+    (modules 17)
     (nets 1)
   )
 
@@ -99,6 +99,28 @@
     (via_drill 0.4)
     (uvia_dia 0.3)
     (uvia_drill 0.1)
+  )
+
+  (module footprints:hole (layer F.Cu) (tedit 5A949421) (tstamp 5A9575FF)
+    (at 114.578 79.725)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value hole (at 0 -0.5) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.3 0.3) (drill 0.3) (layers *.Cu *.Mask))
+  )
+
+  (module footprints:hole (layer F.Cu) (tedit 5A949421) (tstamp 5A9575F1)
+    (at 164.599 81.101)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value hole (at 0 -0.5) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.3 0.3) (drill 0.3) (layers *.Cu *.Mask))
   )
 
   (module footprints:hole (layer B.Cu) (tedit 5A949421) (tstamp 5A957319)
@@ -1089,7 +1111,7 @@
   )
 
   (module footprints:hole (layer F.Cu) (tedit 5A949421) (tstamp 5A94C4D1)
-    (at 114.597 79.924)
+    (at 114.866 80.401)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1100,7 +1122,7 @@
   )
 
   (module footprints:hole (layer F.Cu) (tedit 5A949421) (tstamp 5A94EB63)
-    (at 114.471 79.228)
+    (at 114.558 79.024)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1144,7 +1166,7 @@
   )
 
   (module footprints:hole (layer F.Cu) (tedit 5A949421) (tstamp 5A94EA1C)
-    (at 164.697 80.796)
+    (at 164.929 80.391)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1155,7 +1177,7 @@
   )
 
   (module footprints:hole (layer F.Cu) (tedit 5A949421) (tstamp 5A94E9F9)
-    (at 164.385 81.61)
+    (at 164.253 81.837)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
