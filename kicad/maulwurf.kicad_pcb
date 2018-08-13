@@ -1,12 +1,9 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.7-e2-6376~58~ubuntu16.04.1)
+(kicad_pcb (version 20171130) (host pcbnew 5.0.0-fee4fd1~66~ubuntu16.04.1)
 
   (general
-    (links 0)
-    (no_connects 0)
-    (area 107.924999 55.664333 171.575001 130.075001)
     (thickness 1.6)
     (drawings 57)
-    (tracks 1)
+    (tracks 3)
     (zones 0)
     (modules 17)
     (nets 1)
@@ -64,8 +61,11 @@
     (aux_axis_origin 0 0)
     (visible_elements FFFFFF7F)
     (pcbplotparams
-      (layerselection 0x010f0_80000001)
+      (layerselection 0x010f0_ffffffff)
       (usegerberextensions false)
+      (usegerberattributes false)
+      (usegerberadvancedattributes false)
+      (creategerberjobfile false)
       (excludeedgelayer true)
       (linewidth 0.020000)
       (plotframeref false)
@@ -74,8 +74,7 @@
       (useauxorigin false)
       (hpglpennumber 1)
       (hpglpenspeed 20)
-      (hpglpendiameter 15)
-      (hpglpenoverlay 2)
+      (hpglpendiameter 15.000000)
       (psnegative false)
       (psa4output false)
       (plotreference false)
@@ -87,7 +86,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ../gerbers/))
+      (outputdirectory "../gerbers/"))
   )
 
   (net 0 "")
@@ -170,10 +169,10 @@
   (module footprints:mask (layer F.Cu) (tedit 0) (tstamp 5A94D0F5)
     (at 163.658 121.284)
     (fp_text reference MASK (at -23.68 -28.5) (layer F.SilkS) hide
-      (effects (font (thickness 0.3)))
+      (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
     (fp_text value Mask (at -22.93 -28.5) (layer F.SilkS) hide
-      (effects (font (thickness 0.3)))
+      (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
     (fp_poly (pts (xy -18.832833 -23.815617) (xy -18.663574 -23.771154) (xy -18.399257 -23.670955) (xy -18.095653 -23.536257)
       (xy -18.081198 -23.52936) (xy -17.710781 -23.368087) (xy -17.312513 -23.219229) (xy -17.022864 -23.129298)
@@ -1190,10 +1189,10 @@
   (module footprints:top (layer F.Cu) (tedit 0) (tstamp 5A94CDE5)
     (at 163.597 121.129)
     (fp_text reference TOP (at -23.58 -28.59) (layer F.SilkS) hide
-      (effects (font (thickness 0.3)))
+      (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
     (fp_text value Top (at -22.83 -28.59) (layer F.SilkS) hide
-      (effects (font (thickness 0.3)))
+      (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
     (fp_poly (pts (xy -22.743122 -29.684091) (xy -22.353138 -29.547541) (xy -22.067277 -29.348452) (xy -21.911851 -29.108331)
       (xy -21.891351 -28.987846) (xy -21.847388 -28.799684) (xy -21.694874 -28.672769) (xy -21.6115 -28.633966)
@@ -2297,10 +2296,10 @@
   (module footprints:bottom (layer F.Cu) (tedit 0) (tstamp 5A94D911)
     (at 163.652 121.142 0.2)
     (fp_text reference G*** (at -22.65 -28.47 0.2) (layer F.SilkS) hide
-      (effects (font (thickness 0.3)))
+      (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
     (fp_text value LOGO (at -21.9 -28.47 0.2) (layer F.SilkS) hide
-      (effects (font (thickness 0.3)))
+      (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
     (fp_poly (pts (xy -49.343558 6.560324) (xy -49.343306 6.56235) (xy -49.329479 6.838461) (xy -49.34417 7.07035)
       (xy -49.361812 7.117116) (xy -49.37413 7.016378) (xy -49.378431 6.793667) (xy -49.373342 6.576389)
@@ -3479,10 +3478,10 @@
   (module footprints:silkscreen (layer F.Cu) (tedit 0) (tstamp 5A94D2C5)
     (at 163.633 121.176 0.9)
     (fp_text reference G*** (at -23.21 -29.7 0.9) (layer F.SilkS) hide
-      (effects (font (thickness 0.3)))
+      (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
     (fp_text value LOGO (at -22.46 -29.7 0.9) (layer F.SilkS) hide
-      (effects (font (thickness 0.3)))
+      (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
     (fp_poly (pts (xy -33.708666 4.039667) (xy -33.751 4.082) (xy -33.793333 4.039667) (xy -33.751 3.997334)
       (xy -33.708666 4.039667)) (layer F.SilkS) (width 0.01))
@@ -4130,8 +4129,10 @@
   (gr_line (start 122.06 100.157) (end 114.9 80.4) (layer Edge.Cuts) (width 0.15))
 
   (segment (start 139.193 98.182) (end 139.193 100.299) (width 0.25) (layer F.Cu) (net 0))
+  (via (at 155.95 98.64) (size 0.6) (drill 0.4) (layers F.Cu B.Cu) (net 0))
+  (via (at 122.82 99.21) (size 0.6) (drill 0.4) (layers F.Cu B.Cu) (net 0))
 
-  (zone (net 0) (net_name "") (layer B.Mask) (tstamp 0) (hatch edge 0.508)
+  (zone (net 0) (net_name "") (layer B.Mask) (tstamp 5B723411) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
