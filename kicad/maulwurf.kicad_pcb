@@ -59,7 +59,7 @@
     (pad_drill 0.762)
     (pad_to_mask_clearance 0.2)
     (aux_axis_origin 0 0)
-    (visible_elements FFFFFF7F)
+    (visible_elements FFFFFFFF)
     (pcbplotparams
       (layerselection 0x010f0_ffffffff)
       (usegerberextensions false)
@@ -101,11 +101,11 @@
   )
 
   (module footprints:bottom (layer F.Cu) (tedit 0) (tstamp 5A94D911)
-    (at 140.92 92.65 0.2)
-    (fp_text reference G*** (at -22.65 -28.47 0.2) (layer F.SilkS) hide
+    (at 140.06 100.54 180.2)
+    (fp_text reference G*** (at -22.65 -28.47 180.2) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
-    (fp_text value LOGO (at -21.9 -28.47 0.2) (layer F.SilkS) hide
+    (fp_text value LOGO (at -21.9 -28.47 180.2) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
     (fp_poly (pts (xy -10.338671 -30.72234) (xy -10.218345 -30.64147) (xy -10.124296 -30.490371) (xy -10.061345 -30.272577)
@@ -2278,11 +2278,11 @@
   )
 
   (module footprints:mask (layer F.Cu) (tedit 0) (tstamp 5A94D0F5)
-    (at 163.658 121.284)
-    (fp_text reference MASK (at -23.68 -28.5) (layer F.SilkS) hide
+    (at 117.322 71.906 180)
+    (fp_text reference MASK (at -23.68 -28.5 180) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
-    (fp_text value Mask (at -22.93 -28.5) (layer F.SilkS) hide
+    (fp_text value Mask (at -22.93 -28.5 180) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
     (fp_poly (pts (xy -18.832833 -23.815617) (xy -18.663574 -23.771154) (xy -18.399257 -23.670955) (xy -18.095653 -23.536257)
@@ -3221,11 +3221,11 @@
   )
 
   (module footprints:top (layer F.Cu) (tedit 0) (tstamp 5A94CDE5)
-    (at 163.597 121.129)
-    (fp_text reference TOP (at -23.58 -28.59) (layer F.SilkS) hide
+    (at 117.383 72.061 180)
+    (fp_text reference TOP (at -23.58 -28.59 180) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
-    (fp_text value Top (at -22.83 -28.59) (layer F.SilkS) hide
+    (fp_text value Top (at -22.83 -28.59 180) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
     (fp_poly (pts (xy -22.743122 -29.684091) (xy -22.353138 -29.547541) (xy -22.067277 -29.348452) (xy -21.911851 -29.108331)
@@ -4328,11 +4328,11 @@
   )
 
   (module footprints:silkscreen (layer F.Cu) (tedit 0) (tstamp 5A94D2C5)
-    (at 163.633 121.176 0.9)
-    (fp_text reference G*** (at -23.21 -29.7 0.9) (layer F.SilkS) hide
+    (at 117.347 72.014 180.9)
+    (fp_text reference G*** (at -23.21 -29.7 180.9) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
-    (fp_text value LOGO (at -22.46 -29.7 0.9) (layer F.SilkS) hide
+    (fp_text value LOGO (at -22.46 -29.7 180.9) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
     (fp_poly (pts (xy -33.708666 4.039667) (xy -33.751 4.082) (xy -33.793333 4.039667) (xy -33.751 3.997334)
@@ -4922,49 +4922,34 @@
       (xy -32.213849 -59.695039) (xy -31.985009 -59.594131)) (layer F.SilkS) (width 0.01))
   )
 
-  (gr_line (start 166.169 68.752) (end 164.6 81.15) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 139.6 128) (end 140.5 128) (layer F.Mask) (width 0.2))
-  (gr_line (start 139.6 128) (end 140.4 128) (layer F.Mask) (width 0.2))
-  (gr_line (start 140.4 128) (end 140.5 128) (layer F.Mask) (width 0.2))
-  (gr_line (start 125.322 108.571) (end 122.41 100.9) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 152.216 109.984) (end 156.07 101.05) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 117.158 125.793) (end 125.312 108.551) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 138.64 121.16) (end 117.158 125.793) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 159.174 127.286) (end 138.64 121.16) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 152.205 109.981) (end 159.174 127.286) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 164.6 81.13) (end 156.06 101.08) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 160.381 79.955) (end 166.169 68.752) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 161.683 66.106) (end 160.381 79.955) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 155.273 79.099) (end 161.683 66.106) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 158.048 64.534) (end 155.273 79.099) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 146.601 82.086) (end 158.048 64.534) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 139.545 73.904) (end 146.601 82.086) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 132.839 81.766) (end 139.532 73.896) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 123.054 63.516) (end 132.839 81.766) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 124.22 77.774) (end 123.054 63.516) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 118.59 64.406) (end 124.22 77.774) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 119.124 77.993) (end 118.59 64.406) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 114.062 65.872) (end 119.124 77.993) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 114.6 79.75) (end 114.062 65.872) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 122.42 100.92) (end 114.59 79.73) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 114.811 124.438) (end 116.38 112.04) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 141.38 65.19) (end 140.48 65.19) (layer F.Mask) (width 0.2))
+  (gr_line (start 141.38 65.19) (end 140.58 65.19) (layer F.Mask) (width 0.2))
+  (gr_line (start 140.58 65.19) (end 140.48 65.19) (layer F.Mask) (width 0.2))
+  (gr_line (start 155.658 84.619) (end 158.57 92.29) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 128.764 83.206) (end 124.91 92.14) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 163.822 67.397) (end 155.668 84.639) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 142.34 72.03) (end 163.822 67.397) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 121.806 65.904) (end 142.34 72.03) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 128.775 83.209) (end 121.806 65.904) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 116.38 112.06) (end 124.92 92.11) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 120.599 113.235) (end 114.811 124.438) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 119.297 127.084) (end 120.599 113.235) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 125.707 114.091) (end 119.297 127.084) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 122.932 128.656) (end 125.707 114.091) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 134.379 111.104) (end 122.932 128.656) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 141.435 119.286) (end 134.379 111.104) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 148.141 111.424) (end 141.448 119.294) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 157.926 129.674) (end 148.141 111.424) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 156.76 115.416) (end 157.926 129.674) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 162.39 128.784) (end 156.76 115.416) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 161.856 115.197) (end 162.39 128.784) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 166.918 127.318) (end 161.856 115.197) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 166.38 113.44) (end 166.918 127.318) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 158.56 92.27) (end 166.39 113.46) (layer Edge.Cuts) (width 0.15))
 
-  (segment (start 139.193 98.182) (end 139.193 100.299) (width 0.25) (layer F.Cu) (net 0))
-  (via (at 155.95 98.64) (size 0.6) (drill 0.4) (layers F.Cu B.Cu) (net 0))
-  (via (at 122.82 99.21) (size 0.6) (drill 0.4) (layers F.Cu B.Cu) (net 0))
+  (segment (start 141.787 95.008) (end 141.787 92.891) (width 0.25) (layer F.Cu) (net 0))
+  (via (at 125.03 94.55) (size 0.6) (drill 0.4) (layers F.Cu B.Cu) (net 0))
+  (via (at 158.16 93.98) (size 0.6) (drill 0.4) (layers F.Cu B.Cu) (net 0))
 
-  (zone (net 0) (net_name "") (layer B.Mask) (tstamp 5B723411) (hatch edge 0.508)
-    (connect_pads (clearance 0.508))
-    (min_thickness 0.254)
-    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
-    (polygon
-      (pts
-        (xy 112.5 62.5) (xy 115.5 128) (xy 169 128) (xy 167.5 64.5) (xy 115.5 62.5)
-      )
-    )
-    (filled_polygon
-      (pts
-        (xy 167.375854 64.622319) (xy 168.869964 127.873) (xy 115.621316 127.873) (xy 112.63295 62.627) (xy 115.497563 62.627)
-      )
-    )
-  )
 )
